@@ -6,7 +6,7 @@ import uuid
 from typing import List, Dict
 
 # Configuration
-CHROMA_DB_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "db"))
+CHROMA_DB_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "db"))
 COLLECTION_NAME = "legal_docs"
 
 class RAGEngine:
