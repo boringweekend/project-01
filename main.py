@@ -5,9 +5,9 @@ from pydantic import BaseModel
 import shutil
 import os
 
-from app.rag_engine import rag_engine
-from app.llm_service import llm_service
-from app.ocr_utils import extract_text_from_pdf
+from rag_engine import rag_engine
+from llm_service import llm_service
+from ocr_utils import extract_text_from_pdf
 
 app = FastAPI(title="Legal Chatbot")
 
