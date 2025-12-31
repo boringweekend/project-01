@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-multipart
+chromadb
+sentence-transformers
+easyocr
+pypdf
+huggingface_hub
+requests
+jinja2
